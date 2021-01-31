@@ -12,6 +12,9 @@ See man bash, man sudo, man iwlist, man egrep, and man re_format for details.
 if you got an error with " wlan0     Interface doesn't support scanning. ".
 
 you can solve it with the following:
+
 sudo ifconfig wlan0 down
+
 sudo iwconfig wlan0 mode Managed
+
 sudo ifconfig wlan0 up
