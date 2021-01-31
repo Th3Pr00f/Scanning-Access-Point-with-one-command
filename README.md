@@ -1,5 +1,5 @@
-# Scanning-with-one-command
-Scanning with one command (Linux)
+# Scanning-Access-Point-with-one-command
+Scanning-Access-Point-with-one-command (Linux)
 
 sudo iwlist wlan0 scanning | egrep 'Cell |Encryption|Quality|Last beacon|ESSID'
 
